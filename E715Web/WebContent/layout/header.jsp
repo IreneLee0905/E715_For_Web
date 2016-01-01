@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="/E715Web/resources/css/bootstrap.min.css" />
 <script type="text/javascript"
 	src="/E715Web/resources/js/jquery-1.11.3.js"></script>
-<script type="text/javascript"
-	src="/E715Web/resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/E715Web/resources/js/bootstrap.min.js"></script>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <title>Insert title here</title>
 
@@ -26,18 +25,23 @@
 <body>
 
 	<div id="header">
-		<div class="dropdown">
+		<div style="">
+		<div class="dropdown" >
+			Shuang
+			
+		
 			<button id="dLabel" type="button" data-toggle="dropdown"
 				aria-haspopup="true" role="button" aria-expanded="false">
-
-				<span class="caret">aaa</span>
+				<span class="caret"></span>
 			</button>
-			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-				<li>帳號資料</li>
-				<li>物品資料</li>
-				<li>上傳物品</li>
-				<li>登出</li>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="text-align:center;">
+				<li><a>帳號資料</a></li>
+				<li><a>物品資料</a></li>
+				<li><a>上傳物品</a></li>
+				<li><a>好友清單</a></li>
+				<li><a>登出</a></li>
 			</ul>
+		</div>
 		</div>
 
 	</div>
