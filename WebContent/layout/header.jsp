@@ -4,18 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="/resources/css/bootstrap.min.css" />
-<script type="text/javascript" src="/resources/js/jquery-1.11.3.js"></script>
-<script type="text/javascript" src="/resources/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="/E715Web/resources/css/bootstrap.min.css" />
+<script type="text/javascript" src="/E715Web/resources/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="/E715Web/resources/js/bootstrap.min.js"></script>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <title>Insert title here</title>
 
 
 <style type="text/css">
 	#header{
-		width: 50%; 
-		background-color: gray;
+		width: 80%; 
+		height:10%;
 		margin:auto;
+		text-align: center;
+		border-bottom: 1px solid gray;
 	}
 </style>
 </head>
