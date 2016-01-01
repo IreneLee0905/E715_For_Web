@@ -16,23 +16,31 @@
 <style type="text/css">
 #header {
 	width: 80%;
-	height: 20%;
+	height: 50px;
 	margin: auto;
 	border-bottom: 1px solid gray;
+	text-align: justify;
+}
+
+#name{
+	width:10%;
+	height: 50px;
+	padding:auto;
+	
 }
 </style>
 </head>
 <body>
 
 	<div id="header">
-		<div style="">
+		<div id="name">
 		<div class="dropdown" >
-			Shuang
+			
 			
 		
 			<button id="dLabel" type="button" data-toggle="dropdown"
 				aria-haspopup="true" role="button" aria-expanded="false">
-				<span class="caret"></span>
+				Shuang<span class="caret"></span>
 			</button>
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="text-align:center;">
 				<li><a>帳號資料</a></li>
