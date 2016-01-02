@@ -8,50 +8,42 @@
 <link rel="stylesheet" href="/E715Web/resources/css/bootstrap.min.css" />
 <script type="text/javascript"
 	src="/E715Web/resources/js/jquery-1.11.3.js"></script>
-<script type="text/javascript" src="/E715Web/resources/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="/E715Web/resources/js/bootstrap.min.js"></script>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <title>Insert title here</title>
 
 
-<style type="text/css">
-#header {
-	width: 80%;
-	height: 50px;
-	margin: auto;
-	border-bottom: 1px solid gray;
-	text-align: justify;
-}
 
-#name{
-	width:10%;
-	height: 50px;
-	padding:auto;
-	
-}
-</style>
 </head>
 <body>
 
-	<div id="header">
-		<div id="name">
-		<div class="dropdown" >
-			
-			
-		
-			<button id="dLabel" type="button" data-toggle="dropdown"
-				aria-haspopup="true" role="button" aria-expanded="false">
-				Shuang<span class="caret"></span>
+	<nav id="navbar-example" class="navbar navbar-default navbar-static">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" type="button"
+				data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
 			</button>
-			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="text-align:center;">
-				<li><a>帳號資料</a></li>
-				<li><a>物品資料</a></li>
-				<li><a>上傳物品</a></li>
-				<li><a>好友清單</a></li>
-				<li><a>登出</a></li>
+			<a class="navbar-brand" href="#">E715</a>
+		</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li id="fat-menu" class="dropdown"><a id="drop3" href="#"
+					class="dropdown-toggle" data-toggle="dropdown" role="button"
+					aria-haspopup="true" aria-expanded="false"> Me <span
+						class="caret"></span>
+				</a>
+					<ul class="dropdown-menu" aria-labelledby="drop3">
+						<li><a href="#">會員資料</a></li>
+						<li><a href="#">物品資料</a></li>
+						<li><a href="#">新增物品</a></li>
+						<li><a href="#">登出</a></li>
+						<li role="separator" class="divider"></li>
+					</ul></li>
 			</ul>
 		</div>
-		</div>
-
-	</div>
-</body>
-</html>
+	
+	</nav>
+	<!--/.nav-collapse -->
