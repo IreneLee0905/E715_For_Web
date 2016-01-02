@@ -1,6 +1,15 @@
 .prolist{
 	height: 300px;
-	width: 250px;
-	border: 1px solid gray;
+	width: 252px;
+/* 	border: 1px solid gray; */
 	margin:20px;
+	box-shadow:1px 1px 8px gray;
+}
+.prodimg{
+	width: 250px;
+	height:250px;
+	margin:auto;
+	
+	
+/* 	border: 1px solid gray; */
 }

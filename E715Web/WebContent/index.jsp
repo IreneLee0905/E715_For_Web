@@ -15,34 +15,32 @@
 	</div>
 	<br>
 	<div class="row">
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
 	</div>
 
 	<div class="row">
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
 	</div>
+	
 	<div class="row">
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
 	</div>
-		<div class="row">
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-		<div class="col-md-3"><div class="prolist">.col-md-1</div></div>
-
+	
+	<div class="row">
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
 	</div>
-</div>
+	</div>
 
 <c:import url="/layout/footer.jsp"></c:import>
