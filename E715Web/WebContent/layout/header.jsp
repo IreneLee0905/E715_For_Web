@@ -31,7 +31,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">E715</a>
+			<a class="navbar-brand" href="${pageContext.request.contextPath }/index.jsp">E715</a>
 		</div>
 		<form class="navbar-form navbar-left" role="search">
 			<div class="form-group">
@@ -45,7 +45,7 @@
 				aria-haspopup="true" aria-expanded="false"> <img
 					class="img-circle" style="width: 30px;"
 					src="${pageContext.request.contextPath }/images/user.jpeg">
-					Me <spanclass="caret">
+					Me <span class="caret">
 					</span></a>
 				<ul class="dropdown-menu" aria-labelledby="drop3">
 					<li><a href="#">會員資料</a></li>
