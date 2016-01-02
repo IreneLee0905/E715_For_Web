@@ -25,7 +25,7 @@
 		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
 		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
 		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
-		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac</div></div>
+		<div class="col-md-3"><div class="prolist"><img class="prodimg" src="${pageContext.request.contextPath}/images/01.jpg">雙雙的Mac</div></div>
 	</div>
 	
 	<div class="row">
