@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <link rel="stylesheet" href="/E715Web/resources/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/E715Web/resources/css/prodcss.css" />
 <script type="text/javascript"
 	src="/E715Web/resources/js/jquery-1.11.3.js"></script>
 <script type="text/javascript"
@@ -18,7 +19,7 @@
 </head>
 <body>
 
-	<nav id="navbar-example" class="navbar navbar-default navbar-static">
+	<nav id="navbar-example" class="navbar navbar-default navbar-fixed navbar-fixed-top" style="position : adsolute;">
 	<div class="container">
 	  
 		<div class="navbar-header">
