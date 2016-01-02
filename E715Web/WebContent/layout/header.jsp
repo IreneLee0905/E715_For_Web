@@ -19,7 +19,8 @@
 <body>
 
 	<nav id="navbar-example" class="navbar navbar-default navbar-static">
-	<div class="container-fluid">
+	<div class="container">
+	  
 		<div class="navbar-header">
 			<button class="navbar-toggle collapsed" type="button"
 				data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
@@ -29,6 +30,12 @@
 			</button>
 			<a class="navbar-brand" href="#">E715</a>
 		</div>
+		<form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
 			<ul class="nav navbar-nav navbar-right">
 				<li id="fat-menu" class="dropdown"><a id="drop3" href="#"
 					class="dropdown-toggle" data-toggle="dropdown" role="button"
