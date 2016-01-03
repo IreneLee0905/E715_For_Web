@@ -5,12 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" href="/E715Web/resources/css/bootstrap.min.css" />
-<link rel="stylesheet" href="/E715Web/resources/css/prodcss.css" />
+<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" />
+<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/prodcss.css" />
 <script type="text/javascript"
-	src="/E715Web/resources/js/jquery-1.11.3.js"></script>
+	src="${pageContext.request.contextPath }/resources/js/jquery-1.11.3.js"></script>
 <script type="text/javascript"
-	src="/E715Web/resources/js/bootstrap.min.js"></script>
+	src="${pageContext.request.contextPath }/resources/js/bootstrap.min.js"></script>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <title>Insert title here</title>
 
@@ -58,4 +58,5 @@
 	</div>
 
 	</nav>
+	<br><br><br>
 	<!--/.nav-collapse -->
