@@ -50,7 +50,7 @@
 				<ul class="dropdown-menu" aria-labelledby="drop3">
 					<li><a href="#">會員資料</a></li>
 					<li><a href="#">物品資料</a></li>
-					<li><a href="#">新增物品</a></li>
+					<li><a href="${pageContext.request.contextPath}/product/newproduct.jsp">新增物品</a></li>
 					<li><a href="#">登出</a></li>
 					<li role="separator" class="divider"></li>
 				</ul></li>

@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav"> 
 					<li><a class="thumbnail" href="#"><img class="smaimg"
 							src="${pageContext.request.contextPath}/images/phone.jpg"></a></li>
 					<li><a class="thumbnail" href="#"><img class="smaimg"
@@ -95,15 +95,13 @@
 
 			<div class="form-group row">
 				<label class="col-sm-3">交易時段</label>
-				<div class="col-sm-10"><input type="radio" name="gridRadios"
-							id="time1" value="option2"> <label for="time1" >上午</label>
-							<input type="radio" name="gridRadios"
-							id="gridRadios2" value="option2"> 下午
-							<input type="radio" name="gridRadios"
-							id="gridRadios2" value="option2"> 18:00過後
-
+				<div class="col-sm-10">
+				<div class="radio">
+					<label ><input type="radio" name="gridRadios" value="option2">上午</label>
+					<label><input type="radio" name="gridRadios" value="option2">下午</label>
+					<label><input type="radio" name="gridRadios" value="option2">18:00過後</label>
 				</div>
-				
+				</div>
 			</div>
 
 			<div class="form-group row">
@@ -118,18 +116,15 @@
 				<div class="col-sm-10">
 
 					<div class="radio">
-						<label> <input type="radio" name="gridRadios"
-							id="gridRadios2" value="option2"> 面交
+						<label> <input type="radio" name="gridRadios" value="option2"> 面交
 						</label>
 					</div>
 					<div class="radio">
-						<label> <input type="radio" name="gridRadios"
-							id="gridRadios2" value="option2"> 宅急便
+						<label> <input type="radio" name="gridRadios" value="option2"> 宅急便
 						</label>
 					</div>
 					<div class="radio">
-						<label> <input type="radio" name="gridRadios"
-							id="gridRadios2" value="option2"> 超商
+						<label> <input type="radio" name="gridRadios"  value="option2"> 超商
 
 						</label>
 					</div>
@@ -165,7 +160,7 @@
 					</label>
 				</div>
 				<textarea style="width: 80%;" class="form-control" rows="8"
-					placeholder="商品描述..."></textarea>
+					placeholder="詳細敘述想要換到的商品"></textarea>
 
 			</div>	
 		</div>
