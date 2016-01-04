@@ -25,16 +25,15 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-4">
-		</div>
+		<div class="col-md-4"></div>
 	</div>
 	<div class="col-md-12">
 		<div>
 			<!-- Nav tabs -->
 			<br> <br>
 			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#friend" aria-controls="home"
-					role="tab" data-toggle="tab">好友名單</a></li>
+				<li role="presentation" class="active"><a href="#friend"
+					aria-controls="home" role="tab" data-toggle="tab">好友名單</a></li>
 				<li role="presentation"><a href="#banlist"
 					aria-controls="profile" role="tab" data-toggle="tab">黑名單</a></li>
 			</ul>
@@ -45,49 +44,53 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-warning btn-lg">
-									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> 取消關注
+									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+									取消關注
 								</button>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-warning btn-lg">
-									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> 取消關注
+									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+									取消關注
 								</button>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-warning btn-lg">
-									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> 取消關注
+									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+									取消關注
 								</button>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-warning btn-lg">
-									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> 取消關注
+									<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+									取消關注
 								</button>
 							</div>
 						</div>
@@ -98,49 +101,53 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-success btn-lg">
-									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> 取消封鎖
+									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+									取消封鎖
 								</button>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-success btn-lg">
-									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> 取消封鎖
+									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+									取消封鎖
 								</button>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-success btn-lg">
-									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> 取消封鎖
+									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+									取消封鎖
 								</button>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div align="center">
-								<img class="img-circle" style="height: 80px;"
-									src="${pageContext.request.contextPath }/images/noname.jpg">
+								<a href="${pageContext.request.contextPath}/user/myProfile.jsp"> <img class="img-circle" style="height: 80px;"
+									src="${pageContext.request.contextPath}/images/noname.jpg"></a>
 								<p>Account</p>
 								<p>Name</p>
 								<p>台灣大學</p>
 								<button type="button" class="btn btn-success btn-lg">
-									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> 取消封鎖
+									<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+									取消封鎖
 								</button>
 							</div>
 						</div>
