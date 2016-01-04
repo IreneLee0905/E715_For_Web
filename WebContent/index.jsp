@@ -18,9 +18,9 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
 			<div class="col-md-3">
-				<div class="prolist">
+				<div class="prolist" onclick="location.href='${pageContext.request.contextPath}/product/product.jsp';">
 					<img class="prodimg"
-						src="${pageContext.request.contextPath}/images/phone.jpg">雙雙的Mac
+						src="${pageContext.request.contextPath}/images/phone.jpg" >雙雙的Mac
 				</div>
 			</div>
 			<div class="col-md-3">

@@ -4,6 +4,7 @@
 /* 	border: 1px solid gray; */
 	margin:15px;
 	box-shadow:1px 1px 8px gray;
+	cursor :pointer;
 }
 .prodimg{
 	width: 200px;
