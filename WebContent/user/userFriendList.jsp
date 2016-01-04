@@ -17,7 +17,7 @@
 							<li><h4>
 									Account <a href="#"></a>
 								</h4></li>
-							<li>Name~~~~~</li>
+							<li>Name~~~AAAA~~</li>
 							<li>台灣大學</li>
 						</ul></li>
 					<li><span class="glyphicon glyphicon-plus">123</span></li>
