@@ -1,0 +1,20 @@
+.prolist{
+	height: 300px;
+	width: 242px;
+/* 	border: 1px solid gray; */
+	margin:15px;
+	box-shadow:1px 1px 8px gray;
+}
+.prodimg{
+	width: 240px;
+	height:250px;
+	margin:auto;
+	
+	
+/* 	border: 1px solid gray; */
+}
+
+.smaimg{
+	width: 50px;
+	height:50px;
+}

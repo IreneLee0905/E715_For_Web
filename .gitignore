@@ -1,1 +1,6 @@
 /build/
+/.settings/
+/E715Web
+
+/.project
+/.classpath
